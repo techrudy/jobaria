@@ -1,0 +1,18 @@
+type QueryProfessional {
+    success : Professional
+    error : String
+}
+
+type MutationProfessional {
+    success : String
+    error : String
+}
+
+type Professional {
+    id: Int!
+    username: String!
+    email: String!
+    company: Company
+    first_name: String
+    last_name: String
+}

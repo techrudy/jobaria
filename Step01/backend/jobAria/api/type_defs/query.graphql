@@ -1,0 +1,15 @@
+type Query {
+    checkAuth: TokenChecked
+
+    candidates : [Candidate!]!
+    candidate: QueryCandidate
+
+    professionals: [Professional!]!
+    professional(user_id: Int!): QueryProfessional
+
+    jobOffers: [JobOffer!]!
+    jobOffer(job_offer_id: Int!): QueryJobOffer
+
+    companies: [Company!]!
+    company(company_id: Int!): QueryCompany
+}

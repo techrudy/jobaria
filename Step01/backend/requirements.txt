@@ -1,0 +1,8 @@
+# Django & co
+django
+ariadne
+python-dateutil
+psycopg2-binary
+django[argon2]
+django-cors-headers
+

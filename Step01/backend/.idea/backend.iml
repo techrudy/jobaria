@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/corsheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/django_ariadne_jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/django_ariadne_jwt-0.2.0.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/django_cors_headers-3.5.0.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/pip-20.2.3.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/jobAria/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/compat" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>

@@ -1,0 +1,91 @@
+type Mutation {
+    loginUser(
+        username: String!,
+        password: String!
+    ): MutationUser
+
+
+    createCandidate(
+        username: String!,
+        password: String!,
+        email: String!,
+        firstname: String,
+        lastname: String
+    ): MutationCandidate
+
+    deleteCandidate(
+        user_id: Int!
+    ): MutationCandidate
+
+    updateCandidate(
+        user_id: Int!,
+        username: String,
+        password: String,
+        email:String,
+        firstname:String,
+        lastname:String
+    ): MutationCandidate
+
+
+    createProfessional(
+        username: String!,
+        email: String!,
+        password: String!,
+        company_id: ID!
+        firstname:String,
+        lastname:String
+    ): MutationProfessional
+
+    deleteProfessional(
+        user_id: Int!
+    ): MutationProfessional
+
+    updateProfessional(
+        user_id: Int!,
+        username: String,
+        password: String,
+        email:String,
+        firstname:String,
+        lastname:String
+    ): MutationProfessional
+
+
+    createCompany(
+        name: String!,
+        description: String!
+    ): MutationCreateCompany
+
+    updateCompany(
+        company_id: Int!,
+        name: String,
+        description: String
+    ): MutationCompany
+
+    deleteCompany(
+        company_id: ID!
+    ): MutationCompany
+
+    createJobOffer(
+        title: String!,
+        description: String!,
+        company_id: ID!,
+    ): MutationjobOffer
+
+    updateJobOffer(
+        job_offer_id: Int!,
+        title: String,
+        description: String,
+    ): MutationjobOffer
+
+    deleteJobOffer(
+        job_offer_id: Int!,
+    ): MutationjobOffer
+
+    applyJobOffer(
+        job_offer_id: ID!,
+    ): MutationjobOffer
+
+    removeApplyJobOffer(
+        job_offer_id: ID!,
+    ): MutationjobOffer
+}

@@ -1,0 +1,20 @@
+type MutationUser {
+    success: TokenSend
+    error: String
+}
+
+type TokenChecked {
+    success: UserChecked
+    error: String
+}
+
+type UserChecked {
+    msg: String!
+    user: Professional
+}
+
+type TokenSend {
+    msg : String!
+    token : String!
+}
+

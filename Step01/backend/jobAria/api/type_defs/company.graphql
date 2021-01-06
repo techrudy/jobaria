@@ -1,0 +1,27 @@
+type QueryCompany {
+    success : Company
+    error : String
+}
+
+type MutationCompany {
+    success : String
+    error : String
+}
+
+type MutationCreateCompany {
+    success: SendCompany
+    error: String
+}
+
+type SendCompany {
+    msg: String
+    company: Company
+}
+
+type Company {
+    id: Int!
+    name: String!
+    description: String!
+    created_at: DateTime
+    updated_at: DateTime
+}
